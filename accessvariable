@@ -1,0 +1,14 @@
+
+public class accessvariable {
+
+public static  double pi=3.14;
+public static int lakhs=2222; 
+
+
+	public static void main(String[] args) {
+
+		
+	    
+	    System.out.println(pi);
+	}
+}
