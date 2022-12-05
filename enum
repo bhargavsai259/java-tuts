@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Main{
+public enum light {green ,yellow ,red} ;
+
+public static void main(String args[])
+{
+    
+    Scanner sc=new Scanner(System.in);
+    
+    
+    light trafficlight = light.green;
+    
+    System.out.println(trafficlight);
+    
+    if(trafficlight==light.red)
+    {
+        System.out.println("stop");
+    }
+    
+    else if(trafficlight==light.yellow)
+    {
+        System.out.println("go slow");
+    }
+    else
+    {
+        System.out.println(" GO");
+    }
+} 
+}
